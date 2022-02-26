@@ -1,5 +1,5 @@
 {
-    "name": "demo-plugin1",
+    "name": "demo-plugin2",
     "version": "0.1.0",
     "private": true,
     "main": "src/index.ts"
