@@ -79,6 +79,7 @@ tsc -b --watch
 ```json
 {
   "compilerOptions": {
+    "composite": true,
     "outDir": "lib"
   },
   "references": [
@@ -90,6 +91,7 @@ tsc -b --watch
 ```
 
 构建完成的结果在每个模块的 lib/src 目录下，ts 和 tsx 都变成 js 文件了。
+typescript 这种一条命令管多个模块的[新构建模式](https://www.typescriptlang.org/docs/handbook/project-references.html)还是非常好使的。
 
 # 用 webpack 把零散的 js 文件打包成一个
 
