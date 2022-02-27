@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject"
+    "webpack-serve": "webpack serve",
+    "build": "tsc -b",
+    "watch": "tsc -b --watch"
   },
   "eslintConfig": {
     "extends": [

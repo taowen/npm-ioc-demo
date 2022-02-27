@@ -1,15 +1,30 @@
 {
-    "compilerOptions": {
-      "target": "esnext",
-      "useDefineForClassFields": true,
-      "module": "esnext",
-      "moduleResolution": "node",
-      "strict": true,
-      "jsx": "preserve",
-      "sourceMap": true,
-      "resolveJsonModule": true,
-      "esModuleInterop": true,
-      "lib": ["esnext", "dom"]
-    },
-    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "../demo-motherboard/**/*.d.ts"]
-  }
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true,
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "lib",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "paths": {
+      "@plugin1": ["../demo-motherboard/lib/src/plugin1.d.ts"],
+      "@plugin2": ["../demo-motherboard/lib/src/plugin2.d.ts"]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    { "path": "../demo-motherboard" }
+  ]
+}

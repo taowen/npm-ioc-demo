@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
     "target": "es5",
     "lib": [
       "dom",
@@ -17,11 +18,23 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "noEmitOnError": true,
+    "outDir": "lib",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@plugin1": ["src/plugin1"],
+      "@plugin2": ["src/plugin2"],
+    }
   },
   "include": [
     "src",
     "../demo-motherboard/ext/**/*.d.ts"
+  ],
+  "references": [
+    { "path": "../demo-motherboard" },
+    { "path": "../demo-plugin1" },
+    { "path": "../demo-plugin2" }
   ]
 }
