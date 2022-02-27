@@ -17,7 +17,7 @@
       "dom"
     ],
     "paths": {
-      "@plugin1": ["../demo-motherboard/lib/src/plugin1.d.ts"]
+      "@plugin1": ["../demo-motherboard/src/plugin1.abstract.ts"]
     }
   },
   "include": [

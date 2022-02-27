@@ -4,4 +4,4 @@ export function ComponentProvidedByPlugin1(props) {
 export function spiExportedByPlugin1ForOtherPlugins() {
     throw new Error('abstract');
 }
-//# sourceMappingURL=plugin1.js.map
+//# sourceMappingURL=plugin1.abstract.js.map

@@ -12,10 +12,9 @@
       "esModuleInterop": true,
       "lib": ["esnext", "dom"],
       "outDir": "lib",
-      "baseUrl": ".",
       "paths": {
-        "@plugin1": ["src/plugin1"],
-        "@plugin2": ["src/plugin2"],
+        "@plugin1": ["./src/plugin1.abstract.ts"],
+        "@plugin2": ["./src/plugin2.abstract.ts"],
       }
     },
     "include": ["src"]
