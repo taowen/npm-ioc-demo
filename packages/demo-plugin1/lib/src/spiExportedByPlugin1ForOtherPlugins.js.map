@@ -1,1 +1,1 @@
-{"version":3,"file":"spiExportedByPlugin1ForOtherPlugins.js","sourceRoot":"","sources":["../../src/spiExportedByPlugin1ForOtherPlugins.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,mCAAmC;IAC/C,OAAO,gEAAgE,CAAA;AAC3E,CAAC"}
+{"version":3,"file":"spiExportedByPlugin1ForOtherPlugins.js","sourceRoot":"","sources":["../../src/spiExportedByPlugin1ForOtherPlugins.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,wBAAwB,EAAE,MAAM,kBAAkB,CAAC;AAE5D,MAAM,UAAU,mCAAmC;IAC/C,wBAAwB,EAAE,CAAA;IAC1B,OAAO,gEAAgE,CAAA;AAC3E,CAAC"}
